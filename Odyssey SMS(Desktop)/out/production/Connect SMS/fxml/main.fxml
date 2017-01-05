@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <left>
+      <VBox fx:id="vBoxLeft" prefHeight="400.0" prefWidth="166.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="hBoxLeft" alignment="CENTER" prefHeight="75.0" prefWidth="142.0" spacing="5.0">
+               <children>
+                  <TextField fx:id="fldMessage" prefHeight="25.0" prefWidth="120.0" />
+                  <Button fx:id="btnSend" mnemonicParsing="false" onAction="#btnSendClicked" prefHeight="25.0" prefWidth="27.0" text="S" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox fx:id="vBoxCenter" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
